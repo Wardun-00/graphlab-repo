@@ -1,6 +1,8 @@
 *{
     margin: 0;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
 }
 
 /* h2 mane brand name jeta ache setar kaz */
@@ -32,10 +34,20 @@ a{
     
 }
 
+
+
 /* list option er j dot,number ba ja kichu show korbe seta hide hobe */
 li{
     list-style: none;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+
     
+}
+
+ul :hover{
+    background-color: rgb(24, 15, 15);
 }
 
 /* ul er moddhe j list option gulo ache jegulor moddhe flex */
@@ -43,4 +55,48 @@ ul{
     display: flex;
     gap:36px;
     margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+
+/* nav bar er niche container2 er kaz */
+.container2{
+    display: flex;
+    gap:20px;
+    flex-wrap:wrap;
+   
+
+}
+.box1, .box2, .box3{
+  border: 2px solid rgb(175, 25, 150);
+  box-shadow:20px solid black;
+  margin-top: 160px;
+  
+ 
+}
+
+/* single box work */
+.box1{
+    
+}
+
+img{
+    height: 380px;
+    width: 600px;
+}
+
+/* body te kaz */
+
+body{
+     background-image:url('image/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/* under nav bar */
+.passage{
+    color:aliceblue;
 }
