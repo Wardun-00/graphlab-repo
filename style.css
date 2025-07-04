@@ -1,4 +1,46 @@
+*{
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* h2 mane brand name jeta ache setar kaz */
+.logo{
+    margin-left:20px;
+    font-size:36px;
+    color: rgb(247, 246, 255);
+}
+
+/* parent class */
 .navbar{
+    height: 60px;
     display: flex;
     justify-content: space-between;
+    /* background-color: rgb(166, 91, 236); */
+    background-image: url('image/navimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+/* a theke ekhane sudhu link er jnno jeta oita hide hobe */
+a{
+    text-decoration:none;
+    color:aliceblue;
+    font-size:22px;
+    
+    
+}
+
+/* list option er j dot,number ba ja kichu show korbe seta hide hobe */
+li{
+    list-style: none;
+    
+}
+
+/* ul er moddhe j list option gulo ache jegulor moddhe flex */
+ul{
+    display: flex;
+    gap:36px;
+    margin-right: 20px;
 }
